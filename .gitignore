@@ -1,0 +1,40 @@
+# Generated Python and local runtime files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+skill-runtimes/
+models/
+*.onnx
+*.bin
+*.part
+
+# Working data and generated transcript results
+work/
+outputs/
+review_clips/
+*.wav
+*.mp3
+*.mp4
+*.m4a
+*.mkv
+*.mov
+*.webm
+*.srt
+*.vtt
+*.raw.txt
+audio_evidence.json
+review_report.json
+failure.json
+setup-manifest.json
+
+# Local credentials and OS metadata
+.env
+.env.*
+!.env.example
+auth.json
+cookies.txt
+*.pem
+*.key
+.DS_Store
+Thumbs.db

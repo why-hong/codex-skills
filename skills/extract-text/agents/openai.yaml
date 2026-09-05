@@ -1,0 +1,3 @@
+interface:
+  display_name: "文字提取与校对"
+  short_description: "提取图片与 PDF，双引擎读取视频原音并核对转写，保留原稿与疑点"
