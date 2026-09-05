@@ -2,16 +2,6 @@
 
 个人技能备份。当前包含 [文字提取与校对](skills/extract-text/SKILL.md)：图片、扫描件、PDF 文字提取，以及视频／音频转写和原音双引擎机器复核。
 
-## 第一次放到 GitHub
-
-1. 解压本包，打开 `codex-skills-github` 文件夹。
-2. 打开 [GitHub 新建仓库](https://github.com/new?name=codex-skills&visibility=private)，仓库名称建议 `codex-skills`。仅用于自己跨电脑备份时选择 **Private**；希望任何人能读取时才选择 Public。
-3. 本包已有 README 和忽略规则，建仓库时不用额外生成这些文件，点击 **Create repository**。
-4. 空仓库点击 **uploading an existing file**；已有文件的仓库点击 **Add file → Upload files**。
-5. 将本文件夹里的 `README.md`、`.gitignore` 和整个 `skills` 文件夹拖进上传区，保持目录结构。上传解压后的文件，不要只上传 ZIP，也不要再套一层 `codex-skills-github` 目录。
-6. 提交说明可写 `Add extract-text skill`，提交上传；检查首页能看到 `skills/extract-text/SKILL.md`，然后保存仓库链接。
-
-上传完成后的仓库结构：
 
 ```text
 codex-skills/
@@ -24,8 +14,6 @@ codex-skills/
         ├── references/
         └── scripts/
 ```
-
-GitHub 官方步骤：[创建仓库](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)、[上传文件或文件夹](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)。
 
 ## 换电脑后使用
 
